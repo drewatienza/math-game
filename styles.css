@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  background: radial-gradient(circle, #ccc, #7a4236);
+}
+
+#container {
+  height: 500px;
+  width: 550px;
+  background-color: #9b2b13;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px #90716b;
+  position: relative;
+}
+
+#score {
+  background-color: #226e8a;
+  color: white;
+  padding: 12px;
+  position: absolute;
+  left: 500px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 1px #5b6260;
+}
+
+#correct {
+  position: absolute;
+  left: 260px;
+  background-color: #58ab3d;
+  color: white;
+  padding: 12px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 1px #5b6260;
+  display: none;
+  z-index: 6;
+}
+
+#wrong {
+  position: absolute;
+  left: 252px;
+  background-color: #fa2121;
+  color: white;
+  padding: 12px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 1px #5b6260;
+  display: none;
+}
